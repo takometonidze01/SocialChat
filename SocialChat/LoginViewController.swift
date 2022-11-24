@@ -11,6 +11,7 @@ class LoginViewController: UIViewController {
 
     //Mark: - IBOutlets
     
+    @IBOutlet weak var signUpLabel: UILabel!
     @IBOutlet weak var emailLabelOutlet: UILabel!
     @IBOutlet weak var passwordLabelOutlet: UILabel!
     @IBOutlet weak var repeatPasswordLabelOutlet: UILabel!
@@ -29,11 +30,15 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var passwordLineView: UIView!
     @IBOutlet weak var repeatPasswordLineView: UIView!
     
+    //Mark: - Vars
+    var isLogin = true
+    
     
     //Mark: - View LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        updateUIFor(login: true)
+        setupTextFieldDelegates()
     }
 
     //Mark: - IBActions
@@ -49,8 +54,9 @@ class LoginViewController: UIViewController {
         
     }
     
-    @IBAction func signUpButtonPressed(_ sender: Any) {
-        
+    @IBAction func signUpButtonPressed(_ sender: UIButton) {
+        updateUIFor(login: sender.titleLabel?.text == "Login")
+        isLogin.toggle()
     }
     
     //Mark - Setup
@@ -66,6 +72,19 @@ class LoginViewController: UIViewController {
     }
     
     //Mark: - Animations
+    
+    
+    private func updateUIFor(login: Bool) {
+        loginButton.setImage(UIImage(named: login ? "loginBtn" : "registerBtn"), for: .normal)
+        signUpButton.setTitle(login ? "SignUp" : "Login", for: .normal)
+        accountLabelOutlet.text = login ? "Don't have an account" : "Hane an account?"
+        
+        UIView.animate(withDuration: 0.5) {
+            self.repeatPasswordTextField.isHidden = login
+            self.repeatPasswordLabelOutlet.isHidden = login
+            self.repeatPasswordLineView.isHidden = login
+        }
+    }
     
     private func updatePlaceholderLabels(textField: UITextField) {
         switch textField {
