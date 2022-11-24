@@ -1,0 +1,142 @@
+Target dependency graph (33 targets)
+BoringSSL-GRPC in Pods, no dependencies
+nanopb in Pods, no dependencies
+GoogleDataTransport in Pods, depends on:
+nanopb in Pods (explicit)
+PromisesObjC in Pods, no dependencies
+GoogleUtilities in Pods, depends on:
+PromisesObjC in Pods (explicit)
+FirebaseCoreDiagnostics in Pods, depends on:
+GoogleDataTransport in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+nanopb in Pods (explicit)
+FirebaseCore in Pods, depends on:
+FirebaseCoreDiagnostics in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+FirebaseInstallations in Pods, depends on:
+FirebaseCore in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+PromisesObjC in Pods (explicit)
+GoogleAppMeasurement in Pods, depends on:
+GoogleUtilities in Pods (explicit)
+nanopb in Pods (explicit)
+FirebaseAnalytics in Pods, depends on:
+FirebaseCore in Pods (explicit)
+FirebaseInstallations in Pods (explicit)
+GoogleAppMeasurement in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+nanopb in Pods (explicit)
+GTMSessionFetcher in Pods, no dependencies
+FirebaseAuth in Pods, depends on:
+FirebaseCore in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+abseil in Pods, no dependencies
+gRPC-Core in Pods, depends on:
+BoringSSL-GRPC in Pods (explicit)
+abseil in Pods (explicit)
+gRPC-C++-gRPCCertificates-Cpp in Pods, depends on:
+abseil in Pods (implicit dependency via options '-framework absl' in build setting 'OTHER_LDFLAGS')
+gRPC-Core in Pods (implicit dependency via options '-framework grpc' in build setting 'OTHER_LDFLAGS')
+gRPC-C++ in Pods, depends on:
+abseil in Pods (explicit)
+gRPC-C++-gRPCCertificates-Cpp in Pods (explicit)
+gRPC-Core in Pods (explicit)
+leveldb-library in Pods, no dependencies
+FirebaseFirestore in Pods, depends on:
+FirebaseCore in Pods (explicit)
+abseil in Pods (explicit)
+gRPC-C++ in Pods (explicit)
+leveldb-library in Pods (explicit)
+nanopb in Pods (explicit)
+FirebaseInstanceID in Pods, depends on:
+FirebaseCore in Pods (explicit)
+FirebaseInstallations in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+Protobuf in Pods, no dependencies
+FirebaseMessaging in Pods, depends on:
+FirebaseCore in Pods (explicit)
+FirebaseInstanceID in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+Protobuf in Pods (explicit)
+FirebaseStorage in Pods, depends on:
+FirebaseCore in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+Firebase in Pods, depends on:
+FirebaseAnalytics in Pods (explicit)
+FirebaseAuth in Pods (explicit)
+FirebaseCore in Pods (explicit)
+FirebaseFirestore in Pods (explicit)
+FirebaseMessaging in Pods (explicit)
+FirebaseStorage in Pods (explicit)
+FirebaseFirestoreSwift in Pods, depends on:
+FirebaseFirestore in Pods (explicit)
+Gallery in Pods, no dependencies
+InputBarAccessoryView in Pods, no dependencies
+MessageKit-MessageKitAssets in Pods, depends on:
+InputBarAccessoryView in Pods (implicit dependency via options '-framework InputBarAccessoryView' in build setting 'OTHER_LDFLAGS')
+MessageKit in Pods, depends on:
+InputBarAccessoryView in Pods (explicit)
+MessageKit-MessageKitAssets in Pods (explicit)
+Realm in Pods, no dependencies
+RealmSwift in Pods, depends on:
+Realm in Pods (explicit)
+SKPhotoBrowser in Pods, no dependencies
+Pods-SocialChat in Pods, depends on:
+BoringSSL-GRPC in Pods (explicit)
+Firebase in Pods (explicit)
+FirebaseAnalytics in Pods (explicit)
+FirebaseAuth in Pods (explicit)
+FirebaseCore in Pods (explicit)
+FirebaseCoreDiagnostics in Pods (explicit)
+FirebaseFirestore in Pods (explicit)
+FirebaseFirestoreSwift in Pods (explicit)
+FirebaseInstallations in Pods (explicit)
+FirebaseInstanceID in Pods (explicit)
+FirebaseMessaging in Pods (explicit)
+FirebaseStorage in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+Gallery in Pods (explicit)
+GoogleAppMeasurement in Pods (explicit)
+GoogleDataTransport in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+InputBarAccessoryView in Pods (explicit)
+MessageKit in Pods (explicit)
+PromisesObjC in Pods (explicit)
+Protobuf in Pods (explicit)
+Realm in Pods (explicit)
+RealmSwift in Pods (explicit)
+SKPhotoBrowser in Pods (explicit)
+abseil in Pods (explicit)
+gRPC-C++ in Pods (explicit)
+gRPC-Core in Pods (explicit)
+leveldb-library in Pods (explicit)
+nanopb in Pods (explicit)
+SocialChat in SocialChat, depends on:
+Pods-SocialChat in Pods (implicit dependency via file 'Pods_SocialChat.framework' in build phase 'Link Binary')
+PromisesObjC in Pods (implicit dependency via options '-framework FBLPromises' in build setting 'OTHER_LDFLAGS')
+FirebaseAuth in Pods (implicit dependency via options '-framework FirebaseAuth' in build setting 'OTHER_LDFLAGS')
+FirebaseCore in Pods (implicit dependency via options '-framework FirebaseCore' in build setting 'OTHER_LDFLAGS')
+FirebaseCoreDiagnostics in Pods (implicit dependency via options '-framework FirebaseCoreDiagnostics' in build setting 'OTHER_LDFLAGS')
+FirebaseFirestore in Pods (implicit dependency via options '-framework FirebaseFirestore' in build setting 'OTHER_LDFLAGS')
+FirebaseFirestoreSwift in Pods (implicit dependency via options '-framework FirebaseFirestoreSwift' in build setting 'OTHER_LDFLAGS')
+FirebaseInstallations in Pods (implicit dependency via options '-framework FirebaseInstallations' in build setting 'OTHER_LDFLAGS')
+FirebaseInstanceID in Pods (implicit dependency via options '-framework FirebaseInstanceID' in build setting 'OTHER_LDFLAGS')
+FirebaseMessaging in Pods (implicit dependency via options '-framework FirebaseMessaging' in build setting 'OTHER_LDFLAGS')
+FirebaseStorage in Pods (implicit dependency via options '-framework FirebaseStorage' in build setting 'OTHER_LDFLAGS')
+GTMSessionFetcher in Pods (implicit dependency via options '-framework GTMSessionFetcher' in build setting 'OTHER_LDFLAGS')
+Gallery in Pods (implicit dependency via options '-framework Gallery' in build setting 'OTHER_LDFLAGS')
+GoogleDataTransport in Pods (implicit dependency via options '-framework GoogleDataTransport' in build setting 'OTHER_LDFLAGS')
+GoogleUtilities in Pods (implicit dependency via options '-framework GoogleUtilities' in build setting 'OTHER_LDFLAGS')
+InputBarAccessoryView in Pods (implicit dependency via options '-framework InputBarAccessoryView' in build setting 'OTHER_LDFLAGS')
+MessageKit in Pods (implicit dependency via options '-framework MessageKit' in build setting 'OTHER_LDFLAGS')
+Protobuf in Pods (implicit dependency via options '-framework Protobuf' in build setting 'OTHER_LDFLAGS')
+Realm in Pods (implicit dependency via options '-framework Realm' in build setting 'OTHER_LDFLAGS')
+RealmSwift in Pods (implicit dependency via options '-framework RealmSwift' in build setting 'OTHER_LDFLAGS')
+SKPhotoBrowser in Pods (implicit dependency via options '-framework SKPhotoBrowser' in build setting 'OTHER_LDFLAGS')
+abseil in Pods (implicit dependency via options '-framework absl' in build setting 'OTHER_LDFLAGS')
+gRPC-Core in Pods (implicit dependency via options '-framework grpc' in build setting 'OTHER_LDFLAGS')
+gRPC-C++ in Pods (implicit dependency via options '-framework grpcpp' in build setting 'OTHER_LDFLAGS')
+leveldb-library in Pods (implicit dependency via options '-framework leveldb' in build setting 'OTHER_LDFLAGS')
+nanopb in Pods (implicit dependency via options '-framework nanopb' in build setting 'OTHER_LDFLAGS')
+BoringSSL-GRPC in Pods (implicit dependency via options '-framework openssl_grpc' in build setting 'OTHER_LDFLAGS')

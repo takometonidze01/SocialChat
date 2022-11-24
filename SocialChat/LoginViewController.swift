@@ -99,7 +99,7 @@ class LoginViewController: UIViewController {
     private func updateUIFor(login: Bool) {
         loginButton.setImage(UIImage(named: login ? "loginBtn" : "registerBtn"), for: .normal)
         signUpButton.setTitle(login ? "SignUp" : "Login", for: .normal)
-        accountLabelOutlet.text = login ? "Don't have an account" : "Hane an account?"
+        accountLabelOutlet.text = login ? "Don't have an account" : "Have an account?"
         
         UIView.animate(withDuration: 0.5) {
             self.repeatPasswordTextField.isHidden = login
@@ -172,7 +172,7 @@ class LoginViewController: UIViewController {
         FirebaseUserListener.shared.loginUserWithEmail(email: emailTextField.text!, password: passwordTextField.text!) { error, isEmailVerified in
             if error == nil {
                 if isEmailVerified {
-                    print("User has Logged In,", User.currentUser?.email)
+                    self.goToApp()
                 } else {
                     ProgressHUD.showFailed("Please verify email.")
                     self.resendEmailButton.isHidden = false
@@ -182,6 +182,13 @@ class LoginViewController: UIViewController {
             }
         }
         
+    }
+    
+    //MARK: - Navigation
+    private func goToApp() {
+        let mainView = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainView") as! UITabBarController
+        mainView.modalPresentationStyle = .fullScreen
+        self.present(mainView, animated: true)
     }
     
 }
