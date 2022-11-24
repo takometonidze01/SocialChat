@@ -1,0 +1,40 @@
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Protocols/MessageCellDelegate.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageCellDelegate.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageCellDelegate.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageCellDelegate.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageCellDelegate.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Views/MessageContainerView.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageContainerView.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageContainerView.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageContainerView.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageContainerView.o"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Layout/MediaMessageSizeCalculator.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MediaMessageSizeCalculator.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MediaMessageSizeCalculator.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MediaMessageSizeCalculator.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MediaMessageSizeCalculator.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Views/Cells/MessageContentCell.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageContentCell.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageContentCell.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageContentCell.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageContentCell.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Supporting/MessageKit+Availability.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageKit+Availability.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageKit+Availability.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageKit+Availability.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageKit+Availability.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Supporting/MessageInputBar.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageInputBar.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageInputBar.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageInputBar.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageInputBar.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Models/MessageKind.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageKind.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageKind.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageKind.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageKind.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Views/Cells/MessageCollectionViewCell.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageCollectionViewCell.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageCollectionViewCell.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageCollectionViewCell.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageCollectionViewCell.swiftdeps"

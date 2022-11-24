@@ -1,0 +1,40 @@
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Protocols/MediaItem.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MediaItem.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MediaItem.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MediaItem.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MediaItem.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Views/Cells/LocationMessageCell.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationMessageCell.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationMessageCell.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationMessageCell.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationMessageCell.o"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Layout/LocationMessageSizeCalculator.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationMessageSizeCalculator.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationMessageSizeCalculator.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationMessageSizeCalculator.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationMessageSizeCalculator.o"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Views/Cells/MediaMessageCell.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MediaMessageCell.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MediaMessageCell.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MediaMessageCell.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MediaMessageCell.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Models/LabelAlignment.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LabelAlignment.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LabelAlignment.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LabelAlignment.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LabelAlignment.o"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Models/LocationMessageSnapshotOptions.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationMessageSnapshotOptions.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationMessageSnapshotOptions.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationMessageSnapshotOptions.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationMessageSnapshotOptions.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Views/InsetLabel.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/InsetLabel.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/InsetLabel.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/InsetLabel.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/InsetLabel.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Protocols/LocationItem.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationItem.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationItem.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationItem.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/LocationItem.d"

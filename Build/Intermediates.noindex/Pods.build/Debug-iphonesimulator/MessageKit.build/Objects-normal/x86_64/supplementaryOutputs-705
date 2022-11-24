@@ -1,0 +1,40 @@
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Layout/ContactMessageSizeCalculator.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/ContactMessageSizeCalculator.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/ContactMessageSizeCalculator.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/ContactMessageSizeCalculator.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/ContactMessageSizeCalculator.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Models/HorizontalEdgeInsets.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/HorizontalEdgeInsets.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/HorizontalEdgeInsets.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/HorizontalEdgeInsets.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/HorizontalEdgeInsets.o"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Extensions/CGRect+Extensions.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/CGRect+Extensions.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/CGRect+Extensions.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/CGRect+Extensions.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/CGRect+Extensions.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Views/Cells/ContactMessageCell.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/ContactMessageCell.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/ContactMessageCell.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/ContactMessageCell.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/ContactMessageCell.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Models/DetectorType.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/DetectorType.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/DetectorType.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/DetectorType.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/DetectorType.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Extensions/Bundle+Extensions.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/Bundle+Extensions.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/Bundle+Extensions.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/Bundle+Extensions.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/Bundle+Extensions.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Layout/CellSizeCalculator.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/CellSizeCalculator.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/CellSizeCalculator.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/CellSizeCalculator.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/CellSizeCalculator.o"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Protocols/ContactItem.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/ContactItem.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/ContactItem.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/ContactItem.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/ContactItem.dia"

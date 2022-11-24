@@ -88,7 +88,7 @@
                                             <constraint firstAttribute="height" constant="18.5" id="U9Y-AR-Kgg"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5DE-FM-PMu">
                                         <rect key="frame" x="0.0" y="139.5" width="343" height="2"/>

@@ -1,0 +1,35 @@
+"/Users/codergirltm/Desktop/SocialChat/Pods/RealmSwift/RealmSwift/CustomPersistable.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/CustomPersistable.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/CustomPersistable.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/CustomPersistable.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/CustomPersistable.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/RealmSwift/RealmSwift/Decimal128.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Decimal128.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Decimal128.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Decimal128.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Decimal128.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/RealmSwift/RealmSwift/Impl/ComplexTypes.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/ComplexTypes.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/ComplexTypes.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/ComplexTypes.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/ComplexTypes.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/RealmSwift/RealmSwift/EmbeddedObject.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/EmbeddedObject.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/EmbeddedObject.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/EmbeddedObject.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/EmbeddedObject.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/RealmSwift/RealmSwift/Error.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Error.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Error.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Error.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Error.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/RealmSwift/RealmSwift/Events.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Events.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Events.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Events.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Events.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/RealmSwift/RealmSwift/Combine.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Combine.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Combine.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Combine.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/Objects-normal/x86_64/Combine.d"

@@ -1,0 +1,40 @@
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Layout/MessageSizeCalculator.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageSizeCalculator.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageSizeCalculator.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageSizeCalculator.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageSizeCalculator.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Controllers/MessagesViewController+Keyboard.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesViewController+Keyboard.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesViewController+Keyboard.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesViewController+Keyboard.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesViewController+Keyboard.o"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Controllers/MessagesViewController+Menu.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesViewController+Menu.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesViewController+Menu.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesViewController+Menu.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesViewController+Menu.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Protocols/MessagesDisplayDelegate.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesDisplayDelegate.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesDisplayDelegate.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesDisplayDelegate.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesDisplayDelegate.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Protocols/MessagesLayoutDelegate.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesLayoutDelegate.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesLayoutDelegate.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesLayoutDelegate.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesLayoutDelegate.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Models/MessageStyle.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageStyle.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageStyle.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageStyle.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessageStyle.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Protocols/MessagesDataSource.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesDataSource.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesDataSource.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesDataSource.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesDataSource.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Controllers/MessagesViewController.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesViewController.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesViewController.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesViewController.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/MessagesViewController.d"

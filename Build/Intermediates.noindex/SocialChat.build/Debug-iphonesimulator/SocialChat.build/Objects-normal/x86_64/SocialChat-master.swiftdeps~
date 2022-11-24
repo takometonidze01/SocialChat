@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "e86cef0849bd366d348d4b9e700cc6c96a2b8afceb44e2392d14566ea0556d62"
+build_start_time: [1669291499, 744271039]
+build_end_time: [1669291499, 782412052]
+inputs:
+  "/Users/codergirltm/Desktop/SocialChat/SocialChat/AppDelegate.swift": !private [1669117676, 575671434]
+  "/Users/codergirltm/Desktop/SocialChat/SocialChat/LoginViewController.swift": !private [1669288929, 658612251]
+  "/Users/codergirltm/Desktop/SocialChat/SocialChat/Model/User.swift": !private [1669291122, 817911148]
+  "/Users/codergirltm/Desktop/SocialChat/SocialChat/ProgressHUD.swift": !private [1669288929, 608572006]
+  "/Users/codergirltm/Desktop/SocialChat/SocialChat/SceneDelegate.swift": !private [1669112403, 911381244]
