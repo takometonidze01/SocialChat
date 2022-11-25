@@ -281,6 +281,7 @@ SWIFT_CLASS("_TtC10SocialChat30EditProfileTableViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified avatarImageView;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
+- (IBAction)editButtonPressed:(id _Nonnull)sender;
 - (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
@@ -293,6 +294,7 @@ SWIFT_CLASS("_TtC10SocialChat30EditProfileTableViewController")
 @interface EditProfileTableViewController (SWIFT_EXTENSION(SocialChat)) <UITextFieldDelegate>
 - (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 @class UIButton;
 

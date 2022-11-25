@@ -6,12 +6,18 @@
 //
 
 import UIKit
+import Gallery
 
 class EditProfileTableViewController: UITableViewController {
 
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var avatarImageView: UIImageView!
+    
+    
+    //MARK: - Vars
+    var gallery: GalleryController!
+    
     
     //MARK: - View Life Cycle
     override func viewDidLoad() {
@@ -26,6 +32,12 @@ class EditProfileTableViewController: UITableViewController {
         
         showUserInfo()
 
+    }
+    
+    //MARK: - IBActions
+    @IBAction func editButtonPressed(_ sender: Any) {
+        
+        showImageGallery()
     }
     
     //MARK: - TableView Delegate
@@ -63,6 +75,35 @@ class EditProfileTableViewController: UITableViewController {
         usernameTextField.clearButtonMode = .whileEditing
         
     }
+    
+    //MARK: - Gallery
+    private func showImageGallery() {
+        self.gallery = GalleryController()
+        self.gallery.delegate = self
+        
+        Config.tabsToShow = [.imageTab, .cameraTab]
+        Config.Camera.imageLimit = 1
+        Config.initialTab = .imageTab
+        
+        self.present(gallery, animated: true)
+        
+    }
+    
+    //MARK: - Upload Images
+    private func uploadAvatarImage(_ image: UIImage) {
+        let fileDirectory = "Avatars/" + "_\(User.currentId)" + ".jpg"
+        
+        FileStorage.uploadImage(image, directory: fileDirectory) { (avatarLink) in
+            
+            if var user = User.currentUser {
+                user.avatarLink = avatarLink ?? ""
+                saveUserLocally(user)
+                FirebaseUserListener.shared.saveUserToFirestore(user)
+            }
+            
+            FileStorage.saveFileLocally(fileData: image.jpegData(compressionQuality: 1.0)! as NSData, fileName: User.currentId)
+        }
+    }
 
 
 }
@@ -84,4 +125,35 @@ extension EditProfileTableViewController: UITextFieldDelegate {
         
         return true
     }
+}
+
+extension EditProfileTableViewController: GalleryControllerDelegate {
+    func galleryController(_ controller: Gallery.GalleryController, didSelectImages images: [Gallery.Image]) {
+        if images.count > 0 {
+            images.first!.resolve { avatarImage in
+                if avatarImage != nil {
+                    self.uploadAvatarImage(avatarImage!)
+                    self.avatarImageView.image = avatarImage
+                } else {
+                    ProgressHUD.showError("Couldn't select image!")
+                }
+            
+            }
+        }
+        controller.dismiss(animated: true)
+    }
+    
+    func galleryController(_ controller: Gallery.GalleryController, didSelectVideo video: Gallery.Video) {
+        controller.dismiss(animated: true)
+    }
+    
+    func galleryController(_ controller: Gallery.GalleryController, requestLightbox images: [Gallery.Image]) {
+        controller.dismiss(animated: true)
+    }
+    
+    func galleryControllerDidCancel(_ controller: Gallery.GalleryController) {
+        controller.dismiss(animated: true)
+    }
+    
+    
 }

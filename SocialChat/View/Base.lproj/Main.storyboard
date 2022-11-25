@@ -493,6 +493,9 @@
                                                     </constraints>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" title="Edit"/>
+                                                    <connections>
+                                                        <action selector="editButtonPressed:" destination="z7w-5T-DdV" eventType="touchUpInside" id="srZ-dT-UFy"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
