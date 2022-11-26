@@ -53,7 +53,9 @@ class EditProfileTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        //TODO: show status view
+        if indexPath.section == 1 && indexPath.row == 0 {
+            performSegue(withIdentifier: "editProfileToStatusSeg", sender: self)
+        }
     }
     
     //MARK: - UpdateUI

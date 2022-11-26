@@ -12,3 +12,5 @@ let storage = Storage.storage()
 let userDefaults = UserDefaults.standard
 public let kCURRENTUSER = "currentUser"
 public let kFILEREFERENCE = "gs://socialchat-ce5ce.appspot.com"
+public let kSTATUS = "status"
+public let kFIRSTRUN = "firstRun"

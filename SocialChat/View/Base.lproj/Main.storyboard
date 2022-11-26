@@ -566,13 +566,52 @@
                     <navigationItem key="navigationItem" title="Edit Profile" largeTitleDisplayMode="never" id="K3g-F9-bFF"/>
                     <connections>
                         <outlet property="avatarImageView" destination="WZ4-NV-jrP" id="0oD-wz-DvS"/>
-                        <outlet property="statusLabel" destination="Zbc-4x-Cct" id="v0y-hS-M8y"/>
+                        <outlet property="statusLabel" destination="iYy-tY-YEb" id="VGh-5D-dlY"/>
                         <outlet property="usernameTextField" destination="Rig-OI-xqv" id="yUB-K6-ccv"/>
+                        <segue destination="r37-5v-Z80" kind="show" identifier="editProfileToStatusSeg" id="Yla-nT-25q"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kPQ-ai-6gE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3540" y="912.5937031484259"/>
+        </scene>
+        <!--Status-->
+        <scene sceneID="PlJ-ck-Nh3">
+            <objects>
+                <tableViewController id="r37-5v-Z80" customClass="StatusTableViewController" customModule="SocialChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Db3-KD-RBO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="tableviewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="fjw-S8-0I0" style="IBUITableViewCellStyleDefault" id="TRa-RR-5nJ">
+                                <rect key="frame" x="0.0" y="50" width="375" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TRa-RR-5nJ" id="Ox3-m3-vVf">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fjw-S8-0I0">
+                                            <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="r37-5v-Z80" id="Lj6-Ah-wfV"/>
+                            <outlet property="delegate" destination="r37-5v-Z80" id="69H-qh-a9J"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Status" id="6Go-OF-lgG"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="18O-ve-gVE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4265" y="913"/>
         </scene>
         <!--Settings-->
         <scene sceneID="ug0-Qi-x96">
