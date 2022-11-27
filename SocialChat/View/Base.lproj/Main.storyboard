@@ -213,22 +213,6 @@
             </objects>
             <point key="canvasLocation" x="1844" y="-460"/>
         </scene>
-        <!--Chats-->
-        <scene sceneID="Gk3-v6-okt">
-            <objects>
-                <viewController id="c3n-ie-1Zl" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="bGB-jn-Qch">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="a6D-w5-xHr"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Chats" image="message" catalog="system" id="dfR-ac-H30"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kaw-8d-xmD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1844" y="-1141"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="t4b-Gi-zIR">
             <objects>
@@ -239,7 +223,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="c3n-ie-1Zl" kind="relationship" relationship="viewControllers" id="xUs-ra-O4Z"/>
+                        <segue destination="he4-XT-d48" kind="relationship" relationship="viewControllers" id="xUs-ra-O4Z"/>
                         <segue destination="NE6-7g-PHM" kind="relationship" relationship="viewControllers" id="254-HQ-CfE"/>
                         <segue destination="VGS-et-uOx" kind="relationship" relationship="viewControllers" id="MiZ-yv-TTU"/>
                         <segue destination="JS1-ik-amW" kind="relationship" relationship="viewControllers" id="AAz-9c-WeM"/>
@@ -783,6 +767,119 @@
             </objects>
             <point key="canvasLocation" x="1861.5999999999999" y="210.94452773613196"/>
         </scene>
+        <!--Chats-->
+        <scene sceneID="Ni4-A7-4d4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="he4-XT-d48" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Chats" image="message" catalog="system" id="dfR-ac-H30"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="zzb-Ov-7HD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QvO-qr-hqb" kind="relationship" relationship="rootViewController" id="jln-CM-Q7W"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B9o-p9-wTw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1844" y="-1141.0794602698652"/>
+        </scene>
+        <!--Chats-->
+        <scene sceneID="lRy-yB-QT9">
+            <objects>
+                <tableViewController id="QvO-qr-hqb" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="85" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Hgv-yT-01l">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="tableviewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="PlO-oh-SMH">
+                                <rect key="frame" x="0.0" y="50" width="375" height="85"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PlO-oh-SMH" id="gU5-uC-XN8">
+                                    <rect key="frame" x="0.0" y="0.0" width="348.5" height="85"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lQ5-AR-DyC">
+                                            <rect key="frame" x="16" y="12.5" width="60" height="60"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="60" id="6CR-yE-rb7"/>
+                                                <constraint firstAttribute="height" constant="60" id="PTw-Qg-KbT"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1Y-F8-v9M">
+                                            <rect key="frame" x="84" y="12" width="49" height="28"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1KK-LL-wF1">
+                                            <rect key="frame" x="84" y="41" width="216.5" height="22"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Todat 22:45" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yct-X0-dkj">
+                                            <rect key="frame" x="269.5" y="11" width="69" height="18"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="18" id="6uf-dJ-ew1"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x7m-jf-hLX">
+                                            <rect key="frame" x="308.5" y="44" width="30" height="30"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62n-iB-jpS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                            <constraints>
+                                                <constraint firstItem="62n-iB-jpS" firstAttribute="leading" secondItem="x7m-jf-hLX" secondAttribute="leading" id="FaN-G5-1tG"/>
+                                                <constraint firstAttribute="bottom" secondItem="62n-iB-jpS" secondAttribute="bottom" id="HCh-hv-yZ0"/>
+                                                <constraint firstAttribute="height" constant="30" id="JL2-tu-pUq"/>
+                                                <constraint firstAttribute="trailing" secondItem="62n-iB-jpS" secondAttribute="trailing" id="a0T-O8-kWX"/>
+                                                <constraint firstAttribute="width" constant="30" id="nl4-kC-cic"/>
+                                                <constraint firstItem="62n-iB-jpS" firstAttribute="centerX" secondItem="x7m-jf-hLX" secondAttribute="centerX" id="oER-8P-4fx"/>
+                                                <constraint firstItem="62n-iB-jpS" firstAttribute="centerY" secondItem="x7m-jf-hLX" secondAttribute="centerY" id="v66-BQ-Bir"/>
+                                                <constraint firstItem="62n-iB-jpS" firstAttribute="top" secondItem="x7m-jf-hLX" secondAttribute="top" id="w1Y-us-b3d"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="c1Y-F8-v9M" firstAttribute="top" secondItem="gU5-uC-XN8" secondAttribute="topMargin" constant="1" id="4hp-68-vZ6"/>
+                                        <constraint firstItem="x7m-jf-hLX" firstAttribute="leading" secondItem="1KK-LL-wF1" secondAttribute="trailing" constant="8" id="9IX-Vd-Nmd"/>
+                                        <constraint firstItem="lQ5-AR-DyC" firstAttribute="centerY" secondItem="gU5-uC-XN8" secondAttribute="centerY" id="Ail-Oo-shy"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="x7m-jf-hLX" secondAttribute="trailing" constant="2" id="SCW-0a-xx9"/>
+                                        <constraint firstItem="x7m-jf-hLX" firstAttribute="bottom" secondItem="gU5-uC-XN8" secondAttribute="bottomMargin" id="fF9-zC-MLE"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="yct-X0-dkj" secondAttribute="trailing" constant="2" id="ja6-jn-Bg2"/>
+                                        <constraint firstItem="lQ5-AR-DyC" firstAttribute="leading" secondItem="gU5-uC-XN8" secondAttribute="leadingMargin" id="o2T-lV-adK"/>
+                                        <constraint firstItem="1KK-LL-wF1" firstAttribute="top" secondItem="c1Y-F8-v9M" secondAttribute="bottom" constant="1" id="pGP-19-sde"/>
+                                        <constraint firstItem="c1Y-F8-v9M" firstAttribute="leading" secondItem="lQ5-AR-DyC" secondAttribute="trailing" constant="8" id="tMi-gM-oxm"/>
+                                        <constraint firstItem="yct-X0-dkj" firstAttribute="top" secondItem="gU5-uC-XN8" secondAttribute="topMargin" id="wAi-Zv-v8P"/>
+                                        <constraint firstItem="1KK-LL-wF1" firstAttribute="leading" secondItem="lQ5-AR-DyC" secondAttribute="trailing" constant="8" id="zJh-4I-8Uv"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="QvO-qr-hqb" id="Whe-Nz-FzJ"/>
+                            <outlet property="delegate" destination="QvO-qr-hqb" id="7Y8-RB-Fb6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Chats" largeTitleDisplayMode="always" id="iG7-7J-tCz"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="05Q-ly-97v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2648.8000000000002" y="-1141.0794602698652"/>
+        </scene>
     </scenes>
     <resources>
         <image name="avatar" width="368" height="368"/>
@@ -799,6 +896,9 @@
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
