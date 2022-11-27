@@ -24,13 +24,17 @@
 		<data>
 		QMHooEGfP1j0o4hON57L9qUC7dY=
 		</data>
+		<key>Base.lproj/Main.storyboardc/AYn-gH-Jeb-view-ta1-n9-wAN.nib</key>
+		<data>
+		lmLq43IG2XthzfpyGarrWRXR4s0=
+		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
 		JIf2+Gg7V/B8bEx/WlZDlGgjRzE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		IQej3bNCDBt+qa4VpyFNgTSBXKk=
+		O0jSCEgIbaU4lRGsP04x9p1eUy0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/LoginViewController.nib</key>
 		<data>
@@ -43,6 +47,10 @@
 		<key>Base.lproj/Main.storyboardc/NE6-7g-PHM-view-F6a-kz-7Xh.nib</key>
 		<data>
 		0ChpSGDCG9N4elOOMeCJUwfGlgw=
+		</data>
+		<key>Base.lproj/Main.storyboardc/ProfileTableViewController.nib</key>
+		<data>
+		6p+KRiBavJM4g4pxTjcjJR+zgu8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITableViewController-r37-5v-Z80.nib</key>
 		<data>
@@ -606,6 +614,13 @@
 			uHhSH+HcHA5iGvqkr1aoGxOxq7hIiNPv4RqvsbC7aSw=
 			</data>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/AYn-gH-Jeb-view-ta1-n9-wAN.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pUol9gjMZWEGK4UOX7rmqfrN3Lk+zXB5hgtJ0sZQw7U=
+			</data>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -617,7 +632,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g0OVC49Il5ZPDo8Qpg5G+V/L5xPj6UYnqz3dHioI62Q=
+			srZdFlXYRDkBzBPsY/JHtdh7zKGEkbQXzGoHSO/ssvA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/LoginViewController.nib</key>
@@ -639,6 +654,13 @@
 			<key>hash2</key>
 			<data>
 			xY+K+ZNJZzpIZza4mS2iIJ2dXIHrDKMQTSEpFWownbE=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/ProfileTableViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q99GHDt6R122z26wUWWrJ0HZyTLZmxdgPcgn7ARVtwY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITableViewController-r37-5v-Z80.nib</key>
