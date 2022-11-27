@@ -72,8 +72,10 @@ class ChatsTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        let recent = searchController.isActive ? filteredRecents[indexPath.row] : allRecents[indexPath.row]
+        FirebaseRecentListener.shared.clearUnreadConuter(recent: recent)
+        goToChat(recent: recent)
         
-        //TODO: - continue chat with user go to chatroom
     }
     
     //MARK: - DownloadChats
@@ -85,6 +87,14 @@ class ChatsTableViewController: UITableViewController {
                 self.tableView.reloadData()
             }
         }
+    }
+    
+    //MARK: - Navigation
+    private func goToChat(recent: RecentChat) {
+        restartChat(chatRoomId: recent.chatRoomId, memberIds: recent.memberIds)
+        let privateChatView = ChatViewController(chatId: recent.chatRoomId, recipientId: recent.receiverId, recipientName: recent.receiverName)
+        privateChatView.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(privateChatView, animated: true)
     }
 
     //MARK: - SetUpSearchController

@@ -230,6 +230,7 @@ using UInt = size_t;
 #endif
 @import CoreFoundation;
 @import Foundation;
+@import MessageKit;
 @import UIKit;
 #endif
 
@@ -264,13 +265,21 @@ SWIFT_CLASS("_TtC10SocialChat11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSCoder;
+@class NSString;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC10SocialChat18ChatViewController")
+@interface ChatViewController : MessagesViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
 @class UITableView;
 @class NSIndexPath;
 @class UITableViewCell;
 @class UIView;
-@class NSString;
-@class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC10SocialChat24ChatsTableViewController")
 @interface ChatsTableViewController : UITableViewController
@@ -282,6 +291,7 @@ SWIFT_CLASS("_TtC10SocialChat24ChatsTableViewController")
 - (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
