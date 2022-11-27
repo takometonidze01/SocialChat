@@ -1,0 +1,20 @@
+"/Users/codergirltm/Desktop/SocialChat/Pods/InputBarAccessoryView/Sources/Plugins/AttachmentManager/Views/ImageAttachmentCell.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/ImageAttachmentCell.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/ImageAttachmentCell.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/ImageAttachmentCell.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/ImageAttachmentCell.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/InputBarAccessoryView/Sources/Plugins/AutocompleteManager/Models/AutocompleteSession.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/AutocompleteSession.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/AutocompleteSession.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/AutocompleteSession.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/AutocompleteSession.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/InputBarAccessoryView/Sources/Models/HorizontalEdgePadding.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/HorizontalEdgePadding.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/HorizontalEdgePadding.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/HorizontalEdgePadding.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/HorizontalEdgePadding.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/InputBarAccessoryView/Sources/Plugins/AutocompleteManager/Views/AutocompleteTableView.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/AutocompleteTableView.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/AutocompleteTableView.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/AutocompleteTableView.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/AutocompleteTableView.o"

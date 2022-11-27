@@ -1,0 +1,40 @@
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Protocols/AudioItem.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AudioItem.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AudioItem.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AudioItem.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AudioItem.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Views/Cells/AudioMessageCell.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AudioMessageCell.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AudioMessageCell.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AudioMessageCell.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AudioMessageCell.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Models/AccessoryPosition.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AccessoryPosition.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AccessoryPosition.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AccessoryPosition.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AccessoryPosition.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Models/AvatarPosition.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AvatarPosition.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AvatarPosition.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AvatarPosition.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AvatarPosition.o"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Layout/AudioMessageSizeCalculator.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AudioMessageSizeCalculator.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AudioMessageSizeCalculator.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AudioMessageSizeCalculator.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AudioMessageSizeCalculator.o"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Models/Avatar.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/Avatar.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/Avatar.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/Avatar.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/Avatar.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Views/AvatarView.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AvatarView.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AvatarView.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AvatarView.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/AvatarView.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/MessageKit/Sources/Views/BubbleCircle.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/BubbleCircle.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/BubbleCircle.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/BubbleCircle.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageKit.build/Objects-normal/x86_64/BubbleCircle.dia"

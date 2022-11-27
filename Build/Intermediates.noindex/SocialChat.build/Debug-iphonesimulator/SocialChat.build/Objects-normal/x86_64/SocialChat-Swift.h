@@ -264,15 +264,38 @@ SWIFT_CLASS("_TtC10SocialChat11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITextField;
-@class UILabel;
-@class UIImageView;
 @class UITableView;
-@class UIView;
 @class NSIndexPath;
+@class UITableViewCell;
+@class UIView;
 @class NSString;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC10SocialChat24ChatsTableViewController")
+@interface ChatsTableViewController : UITableViewController
+- (void)viewDidLoad;
+- (IBAction)composeBarButtonPressed:(id _Nonnull)sender;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)tableView:(UITableView * _Nonnull)tableView canEditRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UISearchController;
+
+@interface ChatsTableViewController (SWIFT_EXTENSION(SocialChat)) <UISearchResultsUpdating>
+- (void)updateSearchResultsForSearchController:(UISearchController * _Nonnull)searchController;
+@end
+
+@class UITextField;
+@class UILabel;
+@class UIImageView;
 
 SWIFT_CLASS("_TtC10SocialChat30EditProfileTableViewController")
 @interface EditProfileTableViewController : UITableViewController
@@ -335,6 +358,7 @@ SWIFT_CLASS("_TtC10SocialChat26ProfileTableViewController")
 - (void)viewDidLoad;
 - (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -350,6 +374,21 @@ SWIFT_CLASS("_TtC10SocialChat11ProgressHUD")
 @end
 
 
+
+
+SWIFT_CLASS("_TtC10SocialChat19RecentTableViewCell")
+@interface RecentTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified unreadCounterBackgroundView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified unreadCounterLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dateLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lastMessageLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified usernameLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified avatarImageView;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
 
 @class UIWindow;
 @class UIScene;
@@ -386,7 +425,6 @@ SWIFT_CLASS("_TtC10SocialChat27SettingsTableViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableViewCell;
 
 SWIFT_CLASS("_TtC10SocialChat25StatusTableViewController")
 @interface StatusTableViewController : UITableViewController
@@ -430,7 +468,6 @@ SWIFT_CLASS("_TtC10SocialChat24UsersTableViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UISearchController;
 
 @interface UsersTableViewController (SWIFT_EXTENSION(SocialChat)) <UISearchResultsUpdating>
 - (void)updateSearchResultsForSearchController:(UISearchController * _Nonnull)searchController;

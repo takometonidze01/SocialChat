@@ -236,7 +236,7 @@
         <!--Users-->
         <scene sceneID="nvF-VD-Hms">
             <objects>
-                <tableViewController id="VjR-EQ-3qa" customClass="UsersTableViewController" customModule="SocialChat" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="UsersTableViewController" id="VjR-EQ-3qa" customClass="UsersTableViewController" customModule="SocialChat" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="V0u-UM-iWs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -397,7 +397,6 @@
         <!--Settings-->
         <scene sceneID="2mu-nm-Qnq">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="613-lb-aBk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tableViewController id="0o5-zE-tYV" customClass="SettingsTableViewController" customModule="SocialChat" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="oM0-xc-Nju">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -564,6 +563,7 @@
                         <segue destination="z7w-5T-DdV" kind="show" identifier="settingsToEditProfileSeg" id="roi-Q3-Uih"/>
                     </connections>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="613-lb-aBk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2788" y="913.49325337331345"/>
         </scene>
@@ -701,14 +701,14 @@
                         <color key="backgroundColor" name="tableviewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="fjw-S8-0I0" style="IBUITableViewCellStyleDefault" id="TRa-RR-5nJ">
-                                <rect key="frame" x="0.0" y="50" width="375" height="43.5"/>
+                                <rect key="frame" x="0.0" y="50" width="375" height="54.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TRa-RR-5nJ" id="Ox3-m3-vVf">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="54.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fjw-S8-0I0">
-                                            <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
+                                            <rect key="frame" x="16" y="0.0" width="343" height="54.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                             <nil key="textColor"/>
@@ -789,20 +789,20 @@
         <!--Chats-->
         <scene sceneID="lRy-yB-QT9">
             <objects>
-                <tableViewController id="QvO-qr-hqb" sceneMemberID="viewController">
+                <tableViewController id="QvO-qr-hqb" customClass="ChatsTableViewController" customModule="SocialChat" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="85" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Hgv-yT-01l">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" name="tableviewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="PlO-oh-SMH">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="PlO-oh-SMH" customClass="RecentTableViewCell" customModule="SocialChat" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="50" width="375" height="85"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PlO-oh-SMH" id="gU5-uC-XN8">
                                     <rect key="frame" x="0.0" y="0.0" width="348.5" height="85"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lQ5-AR-DyC">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="lQ5-AR-DyC">
                                             <rect key="frame" x="16" y="12.5" width="60" height="60"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="60" id="6CR-yE-rb7"/>
@@ -842,7 +842,6 @@
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemGreenColor"/>
                                             <constraints>
-                                                <constraint firstItem="62n-iB-jpS" firstAttribute="leading" secondItem="x7m-jf-hLX" secondAttribute="leading" id="FaN-G5-1tG"/>
                                                 <constraint firstAttribute="bottom" secondItem="62n-iB-jpS" secondAttribute="bottom" id="HCh-hv-yZ0"/>
                                                 <constraint firstAttribute="height" constant="30" id="JL2-tu-pUq"/>
                                                 <constraint firstAttribute="trailing" secondItem="62n-iB-jpS" secondAttribute="trailing" id="a0T-O8-kWX"/>
@@ -854,19 +853,30 @@
                                         </view>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="yct-X0-dkj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="c1Y-F8-v9M" secondAttribute="trailing" constant="8" symbolic="YES" id="06n-h4-FsC"/>
                                         <constraint firstItem="c1Y-F8-v9M" firstAttribute="top" secondItem="gU5-uC-XN8" secondAttribute="topMargin" constant="1" id="4hp-68-vZ6"/>
                                         <constraint firstItem="x7m-jf-hLX" firstAttribute="leading" secondItem="1KK-LL-wF1" secondAttribute="trailing" constant="8" id="9IX-Vd-Nmd"/>
+                                        <constraint firstItem="1KK-LL-wF1" firstAttribute="top" secondItem="c1Y-F8-v9M" secondAttribute="bottom" constant="1" id="9LR-nl-AFk"/>
                                         <constraint firstItem="lQ5-AR-DyC" firstAttribute="centerY" secondItem="gU5-uC-XN8" secondAttribute="centerY" id="Ail-Oo-shy"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="x7m-jf-hLX" secondAttribute="trailing" constant="2" id="SCW-0a-xx9"/>
                                         <constraint firstItem="x7m-jf-hLX" firstAttribute="bottom" secondItem="gU5-uC-XN8" secondAttribute="bottomMargin" id="fF9-zC-MLE"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="yct-X0-dkj" secondAttribute="trailing" constant="2" id="ja6-jn-Bg2"/>
                                         <constraint firstItem="lQ5-AR-DyC" firstAttribute="leading" secondItem="gU5-uC-XN8" secondAttribute="leadingMargin" id="o2T-lV-adK"/>
                                         <constraint firstItem="1KK-LL-wF1" firstAttribute="top" secondItem="c1Y-F8-v9M" secondAttribute="bottom" constant="1" id="pGP-19-sde"/>
+                                        <constraint firstItem="c1Y-F8-v9M" firstAttribute="top" secondItem="gU5-uC-XN8" secondAttribute="topMargin" constant="1" id="szP-6y-wnw"/>
                                         <constraint firstItem="c1Y-F8-v9M" firstAttribute="leading" secondItem="lQ5-AR-DyC" secondAttribute="trailing" constant="8" id="tMi-gM-oxm"/>
                                         <constraint firstItem="yct-X0-dkj" firstAttribute="top" secondItem="gU5-uC-XN8" secondAttribute="topMargin" id="wAi-Zv-v8P"/>
                                         <constraint firstItem="1KK-LL-wF1" firstAttribute="leading" secondItem="lQ5-AR-DyC" secondAttribute="trailing" constant="8" id="zJh-4I-8Uv"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="avatarImageView" destination="lQ5-AR-DyC" id="1Z9-aa-0ic"/>
+                                    <outlet property="dateLabel" destination="yct-X0-dkj" id="7c2-MD-SDR"/>
+                                    <outlet property="lastMessageLabel" destination="1KK-LL-wF1" id="MgT-Ry-ihn"/>
+                                    <outlet property="unreadCounterBackgroundView" destination="x7m-jf-hLX" id="yv8-ag-tBQ"/>
+                                    <outlet property="unreadCounterLabel" destination="62n-iB-jpS" id="KzH-GC-VXf"/>
+                                    <outlet property="usernameLabel" destination="c1Y-F8-v9M" id="942-4B-701"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -874,7 +884,13 @@
                             <outlet property="delegate" destination="QvO-qr-hqb" id="7Y8-RB-Fb6"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Chats" largeTitleDisplayMode="always" id="iG7-7J-tCz"/>
+                    <navigationItem key="navigationItem" title="Chats" largeTitleDisplayMode="always" id="iG7-7J-tCz">
+                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="wvL-ZY-6nw">
+                            <connections>
+                                <action selector="composeBarButtonPressed:" destination="QvO-qr-hqb" id="UqQ-xC-Bfy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="05Q-ly-97v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -889,7 +905,7 @@
         <image name="person.2" catalog="system" width="128" height="82"/>
         <image name="quote.bubble" catalog="system" width="128" height="110"/>
         <namedColor name="tableviewBackgroundColor">
-            <color red="0.94899999999999995" green="0.94899999999999995" blue="0.96899999999999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94900000095367432" green="0.94900000095367432" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -1,0 +1,30 @@
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Videos/Video.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Video.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Video.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Video.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Video.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Utils/Extensions/UIScrollView+Extensions.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIScrollView+Extensions.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIScrollView+Extensions.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIScrollView+Extensions.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIScrollView+Extensions.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Utils/Utils.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Utils.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Utils.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Utils.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Utils.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Utils/Extensions/UIImageView+Extensions.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIImageView+Extensions.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIImageView+Extensions.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIImageView+Extensions.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIImageView+Extensions.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Utils/Extensions/UIView+Extensions.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIView+Extensions.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIView+Extensions.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIView+Extensions.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIView+Extensions.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Utils/Extensions/UIViewController+Extensions.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIViewController+Extensions.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIViewController+Extensions.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIViewController+Extensions.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/UIViewController+Extensions.d"

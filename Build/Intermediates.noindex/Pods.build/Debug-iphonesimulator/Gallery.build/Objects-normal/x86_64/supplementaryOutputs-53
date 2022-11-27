@@ -1,0 +1,30 @@
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Utils/Permission/PermissionController.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PermissionController.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PermissionController.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PermissionController.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PermissionController.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Camera/StackView.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/StackView.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/StackView.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/StackView.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/StackView.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Utils/Extensions/String+Extensions.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/String+Extensions.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/String+Extensions.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/String+Extensions.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/String+Extensions.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Camera/ShutterButton.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/ShutterButton.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/ShutterButton.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/ShutterButton.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/ShutterButton.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Utils/Permission/PermissionView.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PermissionView.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PermissionView.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PermissionView.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PermissionView.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Camera/TripleButton.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/TripleButton.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/TripleButton.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/TripleButton.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/TripleButton.swiftdeps"

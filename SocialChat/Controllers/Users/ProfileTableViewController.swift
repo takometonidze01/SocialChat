@@ -44,7 +44,8 @@ class ProfileTableViewController: UITableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
         
         if indexPath.section == 1 {
-            //TODO: go to chat
+            let chatId = startChat(user1: User.currentUser!, user2: user!)
+            
         }
     }
 

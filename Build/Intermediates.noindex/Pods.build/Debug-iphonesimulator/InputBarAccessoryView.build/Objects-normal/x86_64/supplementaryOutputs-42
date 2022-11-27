@@ -1,0 +1,20 @@
+"/Users/codergirltm/Desktop/SocialChat/Pods/InputBarAccessoryView/Sources/Views/InputStackView.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/InputStackView.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/InputStackView.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/InputStackView.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/InputStackView.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/InputBarAccessoryView/Sources/Views/InputTextView.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/InputTextView.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/InputTextView.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/InputTextView.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/InputTextView.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/InputBarAccessoryView/Sources/KeyboardManager/KeyboardEvent.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/KeyboardEvent.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/KeyboardEvent.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/KeyboardEvent.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/KeyboardEvent.o"
+"/Users/codergirltm/Desktop/SocialChat/Pods/InputBarAccessoryView/Sources/KeyboardManager/KeyboardManager.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/KeyboardManager.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/KeyboardManager.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/KeyboardManager.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/KeyboardManager.o"

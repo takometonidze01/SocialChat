@@ -1,0 +1,30 @@
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Utils/Pages/PagesController.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PagesController.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PagesController.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PagesController.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PagesController.o"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Utils/Permission/Permission.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Permission.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Permission.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Permission.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Permission.o"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Utils/Pages/PageIndicator.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PageIndicator.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PageIndicator.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PageIndicator.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/PageIndicator.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Utils/Once.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Once.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Once.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Once.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/Once.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Utils/LocationManager.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/LocationManager.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/LocationManager.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/LocationManager.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/LocationManager.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/Gallery/Sources/Images/ImagesLibrary.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/ImagesLibrary.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/ImagesLibrary.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/ImagesLibrary.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Gallery.build/Objects-normal/x86_64/ImagesLibrary.o"
