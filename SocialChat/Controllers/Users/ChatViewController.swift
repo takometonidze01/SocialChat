@@ -25,6 +25,9 @@ class ChatViewController: MessagesViewController {
     let micButton = InputBarButtonItem()
     
     var mkMessages: [MKMessage] = []
+    var allLocalMessages: Results<LocalMessage>!
+    
+    let realm = try! Realm()
     
     //MARK: - Inits
     init(chatId: String, recipientId: String, recipientName: String) {
@@ -41,27 +44,31 @@ class ChatViewController: MessagesViewController {
     //MARK: ViewLifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        configureMessageInputBar()
+        
+        loadChats()
 
     }
     
     //MARK: - Configurations
     private func configureMessageCollectionView() {
-        MessageCollectionViewCell.messagesDataSource = self
-        MessageCollectionViewCell.messageCellDelegate = self
-        MessageCollectionViewCell.messagesDisplayDelegate = self
-        MessageCollectionViewCell.messagesLayoutDelegate = self
+        messagesCollectionView.messagesDataSource = self
+        messagesCollectionView.messageCellDelegate = self
+        messagesCollectionView.messagesDisplayDelegate = self
+        messagesCollectionView.messagesLayoutDelegate = self
         
         scrollsToBottomOnKeyboardBeginsEditing = true
         maintainPositionOnKeyboardFrameChanged = true
         
         messagesCollectionView.refreshControl = refreshController
-    }
+    } 
     
     private func configureMessageInputBar() {
         messageInputBar.delegate = self
         
         let attachButton = InputBarButtonItem()
-        attachButton.image = UIImage(systemName: "plus")
+        attachButton.image = UIImage(systemName: "plus", withConfiguration: UIImage.SymbolConfiguration(pointSize: 30))
         
         attachButton.setSize(CGSize(width: 30, height: 30), animated: false)
         
@@ -69,7 +76,7 @@ class ChatViewController: MessagesViewController {
             print("Attach button pressed")
         }
         
-        micButton.image = UIImage(systemName: "mic.fill")
+        micButton.image = UIImage(systemName: "mic.fill", withConfiguration: UIImage.SymbolConfiguration(pointSize: 30))
         micButton.setSize(CGSize(width: 30, height: 30), animated: false)
         
         //add gesture
@@ -80,6 +87,28 @@ class ChatViewController: MessagesViewController {
         messageInputBar.inputTextView.isImagePasteEnabled = false
         messageInputBar.backgroundView.backgroundColor = .systemBackground
         messageInputBar.inputTextView.backgroundColor = .systemBackground
+    }
+    
+    //MARK: - Load Chats
+    private func loadChats() {
+        let predicate = NSPredicate(format: "chatRoomId = %@", chatId)
+        
+        allLocalMessages = realm.objects(LocalMessage.self).filter(predicate).sorted(byKeyPath: kDATE, ascending: true)
+        
+        
+    }
+    
+    //MARK: - Actions
+    
+    func messageSend(text: String?, photo: UIImage?, video: String?, audio: String?, location: String?, audioDuration: Float = 0.0) {
+        
+        OutgoingMessage.send(chatId: chatId,
+                             text: text,
+                             photo: photo,
+                             video: video,
+                             audio: audio,
+                             location: location,
+                             memberIds: [User.currentId, recipientId])
     }
 
 
