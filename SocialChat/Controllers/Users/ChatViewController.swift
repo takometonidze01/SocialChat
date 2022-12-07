@@ -13,6 +13,29 @@ import RealmSwift
 
 class ChatViewController: MessagesViewController {
     
+    
+    //MARK: - views
+    let leftBarButtonView: UIView = {
+        let view = UIView(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
+        return view
+    }()
+    
+    let titleLabel: UILabel = {
+        let label = UILabel(frame: CGRect(x: 5, y: 0, width: 180, height: 25))
+        label.textAlignment = .left
+        label.font = UIFont.systemFont(ofSize: 16, weight: .medium)
+        label.adjustsFontSizeToFitWidth = true
+        return label
+    }()
+    
+    let subTitleLabel: UILabel = {
+        let label = UILabel(frame: CGRect(x: 5, y: 22, width: 180, height: 20))
+        label.textAlignment = .left
+        label.font = UIFont.systemFont(ofSize: 13, weight: .medium)
+        label.adjustsFontSizeToFitWidth = true
+        return label
+    }()
+    
     //MARK: - Vars
     private var chatId = ""
     private var recipientId = ""
@@ -28,6 +51,9 @@ class ChatViewController: MessagesViewController {
     var allLocalMessages: Results<LocalMessage>!
     
     let realm = try! Realm()
+    
+    //Listeners
+    var notificationToken: NotificationToken?
     
     //MARK: - Inits
     init(chatId: String, recipientId: String, recipientName: String) {
@@ -45,10 +71,15 @@ class ChatViewController: MessagesViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        configureMessageCollectionView()
         configureMessageInputBar()
         
+        configureLeftBarButton()
+        configureCustomTitle()
+                
         loadChats()
-
+    
+        
     }
     
     //MARK: - Configurations
@@ -62,7 +93,7 @@ class ChatViewController: MessagesViewController {
         maintainPositionOnKeyboardFrameChanged = true
         
         messagesCollectionView.refreshControl = refreshController
-    } 
+    }
     
     private func configureMessageInputBar() {
         messageInputBar.delegate = self
@@ -84,10 +115,46 @@ class ChatViewController: MessagesViewController {
         messageInputBar.setStackViewItems([attachButton], forStack: .left, animated: false)
         messageInputBar.setLeftStackViewWidthConstant(to: 36, animated: false)
         
+        updateMicButtonStatus(show: true)
+        
         messageInputBar.inputTextView.isImagePasteEnabled = false
         messageInputBar.backgroundView.backgroundColor = .systemBackground
         messageInputBar.inputTextView.backgroundColor = .systemBackground
     }
+    
+    private func configureLeftBarButton() {
+        self.navigationItem.leftBarButtonItems = [UIBarButtonItem(image: UIImage(systemName: "chevron.left"),
+                                                                  style: .plain,
+                                                                  target: self,
+                                                                  action: #selector(self.backButtonPressed))]
+    }
+    private func configureCustomTitle() {
+        
+        leftBarButtonView.addSubview(titleLabel)
+        leftBarButtonView.addSubview(subTitleLabel)
+        
+        let leftBarButtonItem = UIBarButtonItem(customView: leftBarButtonView)
+        
+        self.navigationItem.leftBarButtonItems?.append(leftBarButtonItem)
+        titleLabel.text = recipientName
+    }
+    
+    func updateMicButtonStatus(show: Bool) {
+        if show {
+            messageInputBar.setStackViewItems([micButton],
+                                              forStack: .right,
+                                              animated: false)
+            messageInputBar.setRightStackViewWidthConstant(to: 30,
+                                                           animated: false)
+        } else {
+            messageInputBar.setStackViewItems([messageInputBar.sendButton],
+                                              forStack: .right,
+                                              animated: false)
+            messageInputBar.setRightStackViewWidthConstant(to: 55,
+                                                           animated: false)
+        }
+    }
+    
     
     //MARK: - Load Chats
     private func loadChats() {
@@ -95,7 +162,48 @@ class ChatViewController: MessagesViewController {
         
         allLocalMessages = realm.objects(LocalMessage.self).filter(predicate).sorted(byKeyPath: kDATE, ascending: true)
         
+        if allLocalMessages.isEmpty {
+            checkForOldChats()
+        }
         
+        notificationToken = allLocalMessages.observe({ (changes: RealmCollectionChange) in
+            switch changes {
+            case .initial:
+                self.insertMessages()
+                self.messagesCollectionView.reloadData()
+                self.messagesCollectionView.scrollToBottom(animated: true)
+            case .update(_, _, let insertions, _):
+                for index in insertions {
+                    self.insertMessage(self.allLocalMessages[index])
+                    self.messagesCollectionView.reloadData()
+                    self.messagesCollectionView.scrollToBottom(animated: true)
+                }
+            case .error(let error):
+                print("Error on new insertion:", error.localizedDescription)
+            }
+        })
+    }
+    
+    private func listemForNewChats() {
+        
+    }
+    
+    private func checkForOldChats() {
+        FirebaseMessageListener.shared.checkForOldChats(User.currentId, collectionId: chatId)
+    }
+    
+    //MARK: - Insert messages
+    private func insertMessages() {
+        
+        for message in allLocalMessages {
+            insertMessage(message)
+        }
+    }
+    
+    private func insertMessage(_ localMessage: LocalMessage) {
+        
+        let incoming = IncomingMessage(_collectionView: messagesCollectionView)
+        self.mkMessages.append(incoming.createMessage(localMessage: localMessage)!)
     }
     
     //MARK: - Actions
@@ -111,6 +219,15 @@ class ChatViewController: MessagesViewController {
                              memberIds: [User.currentId, recipientId])
     }
 
+    @objc func backButtonPressed() {
+        self.navigationController?.popToRootViewController(animated: true)
+    }
+    
+    //MARK: - Update typing indicator
+    
+    func updateTypingIndicator(_ show: Bool) {
+        subTitleLabel.text = show ? "Typing..." : ""
+    }
 
 }
 

@@ -72,7 +72,7 @@ class FirebaseUserListener {
     //MARK: - Save users
     func saveUserToFirestore(_ user: User) {
         do {
-            try firebaseReference(.User).document(user.id).setData(from: user)
+            try FirebaseReference(.User).document(user.id).setData(from: user)
         } catch {
             print(error.localizedDescription, "Adding user")
         }
@@ -90,7 +90,7 @@ class FirebaseUserListener {
     //MARK: - Download
     
     func downloadUserFromFirebase(userId: String, email: String? = nil) {
-        firebaseReference(.User).document(userId).getDocument { querySnapshot, error in
+        FirebaseReference(.User).document(userId).getDocument { querySnapshot, error in
             guard let document = querySnapshot else {
                 print("no document for user")
                 return
@@ -116,7 +116,7 @@ class FirebaseUserListener {
     func downloadAllUsersFromFirebase(completion: @escaping (_ allUsers: [User]) -> Void) {
         var users: [User] = []
         
-        firebaseReference(.User).limit(to: 500).getDocuments { (querySnapshot, error) in
+        FirebaseReference(.User).limit(to: 500).getDocuments { (querySnapshot, error) in
             guard let document = querySnapshot?.documents else {
                 print("no document in users")
                 return
@@ -140,7 +140,7 @@ class FirebaseUserListener {
         var usersArray: [User] = []
         
         for userId in withIds {
-            firebaseReference(.User).document(userId).getDocument { (querySnapshot, error) in
+            FirebaseReference(.User).document(userId).getDocument { (querySnapshot, error) in
                 guard let document = querySnapshot else {
                     print("no document in users")
                     return

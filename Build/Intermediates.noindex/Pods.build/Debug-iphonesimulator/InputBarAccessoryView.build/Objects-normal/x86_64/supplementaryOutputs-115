@@ -1,0 +1,20 @@
+"/Users/codergirltm/Desktop/SocialChat/Pods/InputBarAccessoryView/Sources/Views/SeparatorLine.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/SeparatorLine.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/SeparatorLine.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/SeparatorLine.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/SeparatorLine.d"
+"/Users/codergirltm/Desktop/SocialChat/Pods/InputBarAccessoryView/Sources/Extensions/String+Extensions.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/String+Extensions.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/String+Extensions.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/String+Extensions.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/String+Extensions.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/InputBarAccessoryView/Sources/Extensions/UIView+AutoLayout.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/UIView+AutoLayout.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/UIView+AutoLayout.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/UIView+AutoLayout.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/UIView+AutoLayout.dia"
+"/Users/codergirltm/Desktop/SocialChat/Pods/InputBarAccessoryView/Sources/Extensions/UITextView+Extensions.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/UITextView+Extensions.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/UITextView+Extensions.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/UITextView+Extensions.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/Objects-normal/x86_64/UITextView+Extensions.d"

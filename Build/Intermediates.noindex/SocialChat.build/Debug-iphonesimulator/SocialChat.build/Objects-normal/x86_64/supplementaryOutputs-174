@@ -1,0 +1,20 @@
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/App/SceneDelegate.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/SceneDelegate.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/SceneDelegate.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/SceneDelegate.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/SceneDelegate.dia"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Controllers/Users/ChatViewController.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/ChatViewController.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/ChatViewController.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/ChatViewController.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/ChatViewController.d"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Controllers/Users/ChatViewExtensions/MessageCellDelegate.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/MessageCellDelegate.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/MessageCellDelegate.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/MessageCellDelegate.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/MessageCellDelegate.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Controllers/Users/ChatViewExtensions/MessageDisplayDelegate.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/MessageDisplayDelegate.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/MessageDisplayDelegate.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/MessageDisplayDelegate.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/MessageDisplayDelegate.swiftdeps"

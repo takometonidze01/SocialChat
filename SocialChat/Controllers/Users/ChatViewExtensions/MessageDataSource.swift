@@ -21,5 +21,53 @@ extension ChatViewController: MessagesDataSource {
         mkMessages.count
     }
     
+    func cellTopLabelAttributedText(for message: MessageType, at indexPath: IndexPath) -> NSAttributedString? {
+        
+        if indexPath.section % 3 == 0 {
+            let showLoadMore = false
+            
+            let text = showLoadMore ? "Pull to load more" : MessageKitDateFormatter.shared.string(from: message.sentDate)
+            let font = showLoadMore ? UIFont.systemFont(ofSize: 13) : UIFont.boldSystemFont(ofSize: 10)
+            let color = showLoadMore ? UIColor.systemBlue : UIColor.darkGray
+            
+            return NSAttributedString(string: text,
+                                      attributes: [.font : font, .foregroundColor : color])
+            
+            
+        }
+        
+        return nil
+    }
+    
+    //cell bottom label
+    
+    func cellBottomLabelAttributedText(for message: MessageType, at indexPath: IndexPath) -> NSAttributedString? {
+        if isFromCurrentSender(message: message) {
+            let message = mkMessages[indexPath.section]
+            let status = indexPath.section == mkMessages.count - 1 ? message.status + " " + message.readDate.time() : ""
+            
+            let font = UIFont.boldSystemFont(ofSize: 10)
+            
+            return NSAttributedString(string: status,
+                                      attributes: [.font : font, .foregroundColor : UIColor.darkGray])
+        }
+        
+        return nil
+    }
+    
+    //message bottom label
+    func messageBottomLabelAttributedText(for message: MessageType, at indexPath: IndexPath) -> NSAttributedString? {
+        
+        if indexPath.section != mkMessages.count - 1 {
+            let font = UIFont.boldSystemFont(ofSize: 10)
+            let color = UIColor.darkGray
+            
+            return NSAttributedString(string: message.sentDate.time(),
+            attributes: [.font : font, .foregroundColor : color])
+        }
+        
+        return nil
+    }
+    
     
 }

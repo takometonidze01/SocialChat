@@ -1,0 +1,20 @@
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Controllers/Cells/RecentTableViewCell.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/RecentTableViewCell.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/RecentTableViewCell.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/RecentTableViewCell.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/RecentTableViewCell.d"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Controllers/Users/ChatViewExtensions/MessageLayoutDelegate.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/MessageLayoutDelegate.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/MessageLayoutDelegate.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/MessageLayoutDelegate.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/MessageLayoutDelegate.o"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Helpers/StartChat.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/StartChat.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/StartChat.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/StartChat.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/StartChat.dia"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Helpers/Constants.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/Constants.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/Constants.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/Constants.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/Constants.swiftdeps"

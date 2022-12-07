@@ -1,0 +1,20 @@
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Helpers/Date + Extension.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/Date + Extension.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/Date + Extension.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/Date + Extension.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/Date + Extension.dia"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Controllers/Users/UsersTableViewController.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/UsersTableViewController.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/UsersTableViewController.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/UsersTableViewController.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/UsersTableViewController.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Controllers/Settings/SettingsTableViewController.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/SettingsTableViewController.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/SettingsTableViewController.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/SettingsTableViewController.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/SettingsTableViewController.d"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Model/OutgoingMessage.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/OutgoingMessage.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/OutgoingMessage.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/OutgoingMessage.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/OutgoingMessage.o"

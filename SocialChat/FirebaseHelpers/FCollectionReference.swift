@@ -15,6 +15,6 @@ enum fCollectionReference: String {
     case Messages
 }
 
-func firebaseReference(_ collectionReference: fCollectionReference) -> CollectionReference {
+func FirebaseReference(_ collectionReference: fCollectionReference) -> CollectionReference {
     return Firestore.firestore().collection(collectionReference.rawValue)
 }

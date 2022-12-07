@@ -1,0 +1,25 @@
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/FirebaseHelpers/FirebaseRecentListener.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/FirebaseRecentListener.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/FirebaseRecentListener.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/FirebaseRecentListener.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/FirebaseRecentListener.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Model/IncomingMessage.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/IncomingMessage.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/IncomingMessage.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/IncomingMessage.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/IncomingMessage.d"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Controllers/Users/ChatsTableViewController.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/ChatsTableViewController.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/ChatsTableViewController.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/ChatsTableViewController.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/ChatsTableViewController.d"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Controllers/Settings/StatusTableViewController.swift":
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/StatusTableViewController.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/StatusTableViewController.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/StatusTableViewController.swiftdeps"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/StatusTableViewController.d"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Model/RecentChat.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/RecentChat.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/RecentChat.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/RecentChat.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/RecentChat.swiftdeps"

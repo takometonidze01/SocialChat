@@ -1,0 +1,25 @@
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Model/LocalMessage.swift":
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/LocalMessage.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/LocalMessage.swiftdeps"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/LocalMessage.dia"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/LocalMessage.d"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/FirebaseHelpers/FirebaseUserListener.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/FirebaseUserListener.d"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/FirebaseUserListener.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/FirebaseUserListener.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/FirebaseUserListener.dia"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Helpers/RealmMessages/RealmManager.swift":
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/RealmManager.swiftdeps"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/RealmManager.o"
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/RealmManager.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/RealmManager.dia"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/Model/Status.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/Status.d"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/Status.dia"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/Status.o"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/Status.swiftdeps"
+"/Users/codergirltm/Desktop/SocialChat/SocialChat/FirebaseHelpers/FirebaseMessageListener.swift":
+  dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/FirebaseMessageListener.d"
+  object: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/FirebaseMessageListener.o"
+  diagnostics: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/FirebaseMessageListener.dia"
+  swift-dependencies: "/Users/codergirltm/Desktop/SocialChat/Build/Intermediates.noindex/SocialChat.build/Debug-iphonesimulator/SocialChat.build/Objects-normal/x86_64/FirebaseMessageListener.swiftdeps"

@@ -197,22 +197,6 @@
             </objects>
             <point key="canvasLocation" x="13.6" y="3.1484257871064472"/>
         </scene>
-        <!--Channels-->
-        <scene sceneID="FdU-lg-c3k">
-            <objects>
-                <viewController id="NE6-7g-PHM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="F6a-kz-7Xh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="CLk-7J-Z8a"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Channels" image="quote.bubble" catalog="system" id="SeF-mS-mls"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xg7-mx-bSM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1844" y="-460"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="t4b-Gi-zIR">
             <objects>
@@ -224,7 +208,6 @@
                     </tabBar>
                     <connections>
                         <segue destination="he4-XT-d48" kind="relationship" relationship="viewControllers" id="xUs-ra-O4Z"/>
-                        <segue destination="NE6-7g-PHM" kind="relationship" relationship="viewControllers" id="254-HQ-CfE"/>
                         <segue destination="VGS-et-uOx" kind="relationship" relationship="viewControllers" id="MiZ-yv-TTU"/>
                         <segue destination="JS1-ik-amW" kind="relationship" relationship="viewControllers" id="AAz-9c-WeM"/>
                     </connections>
@@ -626,14 +609,14 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="uFu-Mt-IjX">
-                                        <rect key="frame" x="0.0" y="150" width="375" height="44.5"/>
+                                        <rect key="frame" x="0.0" y="150" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uFu-Mt-IjX" id="Ikv-yX-3K7">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rig-OI-xqv">
-                                                    <rect key="frame" x="32" y="12.5" width="327" height="19.5"/>
+                                                    <rect key="frame" x="32" y="12.5" width="327" height="19"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                                 </textField>
@@ -651,7 +634,7 @@
                             <tableViewSection headerTitle="Section-2" id="TOm-7S-JUk">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="0Ni-R2-xOr">
-                                        <rect key="frame" x="0.0" y="272.5" width="375" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="272" width="375" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Ni-R2-xOr" id="56P-ii-fl7">
                                             <rect key="frame" x="0.0" y="0.0" width="348.5" height="43.5"/>
@@ -887,7 +870,7 @@
                     <navigationItem key="navigationItem" title="Chats" largeTitleDisplayMode="always" id="iG7-7J-tCz">
                         <barButtonItem key="rightBarButtonItem" systemItem="compose" id="wvL-ZY-6nw">
                             <connections>
-                                <action selector="composeBarButtonPressed:" destination="QvO-qr-hqb" id="UqQ-xC-Bfy"/>
+                                <action selector="composeBarButtonPressed:" destination="QvO-qr-hqb" id="4Fi-F2-QvL"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -903,7 +886,6 @@
         <image name="loginBtn" width="294" height="62"/>
         <image name="message" catalog="system" width="128" height="116"/>
         <image name="person.2" catalog="system" width="128" height="82"/>
-        <image name="quote.bubble" catalog="system" width="128" height="110"/>
         <namedColor name="tableviewBackgroundColor">
             <color red="0.94900000095367432" green="0.94900000095367432" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
